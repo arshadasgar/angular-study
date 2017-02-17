@@ -11,12 +11,6 @@
                     controller: "loginController",
                     controllerAs: "loginCtrl"
                 })
-                .state("home", {
-                    url: '/home',
-                    templateUrl: "app/home/home.html",
-                    controller: "homeController",
-                    controllerAs: "homeCtrl",
-                })
                 .state("logout", {
                     url: '/logout',
                     controller: "logoutController",
