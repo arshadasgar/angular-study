@@ -35,7 +35,6 @@
                     $state.go("login");
                 }
             } else {
-                console.log('not login');
                 if (loginService.loggedIn()) {
                     event.preventDefault();
                     $state.go("home");
