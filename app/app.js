@@ -17,6 +17,11 @@
                     controller: "homeController",
                     controllerAs: "homeCtrl",
                 })
+                .state("logout", {
+                    url: '/logout',
+                    controller: "logoutController",
+                    controllerAs: "logoutCtrl",
+                })
         })
         .controller('mainController', mainController);
 
