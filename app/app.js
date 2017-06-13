@@ -9,10 +9,7 @@
         		$urlRouterProvider.otherwise('/login');
         		
             $stateProvider
-            	 .state("/", {
-                    redirectTo: 'login'
-                })
-                .state("login", {
+            	 .state("login", {
                     url: '/login',
                     templateUrl: "app/login/login.html",
                     controller: "loginController",
