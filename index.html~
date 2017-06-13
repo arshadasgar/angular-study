@@ -9,7 +9,7 @@
 
 <body ng-controller="mainController as mainCtrl">
 	 <div class="container">
-		 <ui-view></ui-view>
+	 <ui-view></ui-view>
 	 </div>
     <script src="scripts/angular.js"></script>
     <script src="scripts/angular-ui-router.min.js"></script>

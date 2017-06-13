@@ -5,7 +5,6 @@
         .run(checkLogin)
         .config(function ($stateProvider, $urlRouterProvider) {
         	
-        		//including routeprovider only for setting the default root
         		$urlRouterProvider.otherwise('/login');
         		
             $stateProvider
